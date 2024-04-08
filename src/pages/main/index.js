@@ -15,7 +15,7 @@ const MainPage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.post('weather-infomation', {
+        const response = await axios.post('api/weather-infomation', {
           keyword: '서울시',
         });
         setWeather((prev) => ({
