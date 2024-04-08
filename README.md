@@ -48,7 +48,7 @@ How-Wheather 는 이러한 분들을 위해 현재 날씨를 고려하여 옷을
 |                Design                |     Backend      |     Frontend     |     Frontend     |     Frontend     |     Frontend     |     Frontend     | 
 | :----------------------------------: | :--------------: | :--------------: | :--------------: | :--------------: | :--------------: | :--------------: | 
 |                                      |
-| [나무]([깃허브 링크](https://www.behance.net/mogin9903702f)) | [마틴]([깃허브 링크](https://github.com/kyungseopk1m)) | [조쉬]([깃허브 링크](https://github.com/joshyeom?tab=repositories)) | [메튜]([깃허브 링크](https://github.com/taehui7439)) | [국밥]([깃허브 링크](https://github.com/taehui7439)) | [마고]([깃허브 링크](https://github.com/soltihoshi)) | [망고]([깃허브 링크](https://github.com/mingnana)) 
+| [나무]([비핸스 링크](https://www.behance.net/mogin9903702f)) | [마틴]([깃허브 링크](https://github.com/kyungseopk1m)) | [조쉬]([깃허브 링크](https://github.com/joshyeom?tab=repositories)) | [메튜]([깃허브 링크](https://github.com/taehui7439)) | [국밥]([깃허브 링크](https://github.com/taehui7439)) | [마고]([깃허브 링크](https://github.com/soltihoshi)) | [망고]([깃허브 링크](https://github.com/mingnana)) 
 
 <br>
 <br>
