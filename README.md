@@ -49,7 +49,7 @@ How-Wheather 는 이러한 분들을 위해 현재 날씨를 고려하여 옷을
 |      Design      |     BE      |  
 | :--------------: | :--------------: | 
 | <a href=""><img src="https://media.discordapp.net/attachments/1226486997682487326/1226855455809208361/IMG_2695.jpeg?ex=6626492e&is=6613d42e&hm=ff6c301f54b195dbc76585f28b5472812abc9ff612ffdfb0c59afb90c2a3b6a7&=&format=webp&width=444&height=592" alt="profile" width="140" height="140"></a> | <a href="([https://github.com/taehui7439](https://github.com/kyungseopk1m)"><img src="https://avatars.githubusercontent.com/u/101553623?v=4" alt="profile" width="140" height="140"></a> |
-|                 나무                |       [마틴](https://github.com/kyungseopk1m)       |    
+|                 [나무](https://www.behance.net/mogin9903702f)                |       [마틴](https://github.com/kyungseopk1m)       |    
 
 
 
