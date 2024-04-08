@@ -35,7 +35,9 @@ How-Wheather 는 이러한 분들을 위해 현재 날씨를 고려하여 옷을
 # 💻 핵심 기능
 
 ```jsx
-오늘의 날씨, 시간별 날씨, 주간 날씨를 확인할 수 있고, 그에따른 옷차림도 한꺼번에 확인할 수 있습니다
+- 현재의 날씨뿐만 아니라 시간별 및 주간날씨 예보를 확인할 수 있습니다.
+- 날씨 예보를 기반으로 적절한 옷차림을 추천합니다.
+- 나이, 성별, 체질을 선택할 수 있고, 설정값에 따라 다른 옷차림이 보여집니다.
 ```
 
 <br >
@@ -77,7 +79,6 @@ How-Wheather 는 이러한 분들을 위해 현재 날씨를 고려하여 옷을
 
 <img src="https://img.shields.io/badge/Python-3a75b0?style=for-the-badge&logo=python&logoColor=white">
 <img src="https://img.shields.io/badge/cloudfucntions-3a75b0?style=for-the-badge&logo=google&logoColor=white">
-<img src="https://img.shields.io/badge/mongodb-47A248?style=for-the-badge&logo=mongodb&logoColor=white">
 
 ### 디자인
 
@@ -91,6 +92,7 @@ How-Wheather 는 이러한 분들을 위해 현재 날씨를 고려하여 옷을
 <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 <img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
 
+<br/>
 <br/>
 </div>
 
