@@ -2,13 +2,14 @@
 
 ## 팀 로고
 <p align="center">
- <img width="465" alt="테오의 스프린트 17기  6조" src="https://github.com/joshyeom/how-weather-front/assets/105287510/27b09e0d-d7db-422f-89a1-b9a70568f503">
+ <img width="200" alt="테오의 스프린트 17기  6조" src="https://avatars.githubusercontent.com/u/96216178?s=400&u=9a2a39235f858accfe01bad469465e20b78c4069&v=4">
 </p>
+
 
 
 ## 서비스 로고
 <p align="center">
-  <img src="https://github.com/joshyeom/how-weather-front/assets/105287510/6aebe39f-351e-47e9-98ce-36adab978963" alt="서비스 로고" width="200px" height="200px"/>
+  <img src="https://github.com/joshyeom/how-weather-front/assets/105287510/6aebe39f-351e-47e9-98ce-36adab978963" alt="서비스 로고" width="150px" height="150px "/>
 </p>
 
 <br >
@@ -45,10 +46,19 @@ How-Wheather 는 이러한 분들을 위해 현재 날씨를 고려하여 옷을
 
 # 👨‍👩‍👧‍👦 팀 소개
 
-|                Design                |     Backend      |     Frontend     |     Frontend     |     Frontend     |     Frontend     |     Frontend     | 
-| :----------------------------------: | :--------------: | :--------------: | :--------------: | :--------------: | :--------------: | :--------------: | 
-|                                      |
-| [나무]([비핸스 링크](https://www.behance.net/mogin9903702f)) | [마틴]([깃허브 링크](https://github.com/kyungseopk1m)) | [조쉬]([깃허브 링크](https://github.com/joshyeom?tab=repositories)) | [메튜]([깃허브 링크](https://github.com/taehui7439)) | [국밥]([깃허브 링크](https://github.com/taehui7439)) | [마고]([깃허브 링크](https://github.com/soltihoshi)) | [망고]([깃허브 링크](https://github.com/mingnana)) 
+|      Design      |     BE      |  
+| :--------------: | :--------------: | 
+| <a href=""><img src="https://media.discordapp.net/attachments/1226486997682487326/1226855455809208361/IMG_2695.jpeg?ex=6626492e&is=6613d42e&hm=ff6c301f54b195dbc76585f28b5472812abc9ff612ffdfb0c59afb90c2a3b6a7&=&format=webp&width=444&height=592" alt="profile" width="140" height="140"></a> | <a href="([https://github.com/taehui7439](https://github.com/kyungseopk1m)"><img src="https://avatars.githubusercontent.com/u/101553623?v=4" alt="profile" width="140" height="140"></a> |
+|                 나무                |       [마틴](https://github.com/kyungseopk1m)       |    
+
+
+
+|     FE     |     FE     |     FE     |     FE     |     FE     | 
+| :--------------: | :--------------: | :--------------: | :--------------: | :--------------: |
+| <a href="https://github.com/joshyeom?tab=repositories"><img src="https://avatars.githubusercontent.com/u/105287510?v=4" alt="profile" width="140" height="140"></a> | <a href="https://github.com/taehui7439"><img src="https://avatars.githubusercontent.com/u/96802693?v=4" alt="profile" width="140" height="140"></a> |   <a href="https://github.com/skoo1100"><img src="https://avatars.githubusercontent.com/u/55544307?v=4" alt="profile" width="140" height="140"></a> |  <a href="https://github.com/soltihoshi"><img src="https://avatars.githubusercontent.com/u/153697580?v=4" alt="profile" width="140" height="140"></a> |  <a href="https://github.com/mingnana"><img src="https://mblogthumb-phinf.pstatic.net/MjAxOTEyMjdfOTgg/MDAxNTc3NDU3MTA1MjY1.h8Z8BGzOj97L7vSX0R-gwS_pvSyfcOEdpVa7j39rM7sg.xioiVY4XeVCTxrLzw_XjdMITlKQauMLkbx6nkBHufeEg.PNG.hoonmom29/%E3%85%81.png?type=w800" alt="profile" width="140" height="140"></a> |
+| [조쉬](https://github.com/joshyeom?tab=repositories)      |      [메튜](https://github.com/taehui7439)       |      [국밥](https://github.com/skoo1100)      |      [마고](https://github.com/soltihoshi)      |      [망고](https://github.com/mingnana)       | 
+
+
 
 <br>
 <br>
@@ -57,9 +67,6 @@ How-Wheather 는 이러한 분들을 위해 현재 날씨를 고려하여 옷을
 
 <div align="middle">
   
-{https://simpleicons.org/
-위 링크를 활용해 팀에서 채택한 기술 스택 아이콘을 각 파트에 맞게 추가해보세요}
-
 ### 프론트엔드
 
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
