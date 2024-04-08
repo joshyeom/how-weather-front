@@ -1,19 +1,16 @@
 # [육사시미] How-Weather _ 테오의 스프린트 17기
 
+
+![Group 34419](https://github.com/How-weather/front/assets/96216178/0ff17d8c-cff6-43f1-9856-4bd36b564a49)
+<br >
+<br >
 ## 팀 로고
 <p align="center">
  <img width="200" alt="테오의 스프린트 17기  6조" src="https://avatars.githubusercontent.com/u/96216178?s=400&u=9a2a39235f858accfe01bad469465e20b78c4069&v=4">
 </p>
 
-
-
-## 서비스 로고
-<p align="center">
-  <img src="https://github.com/joshyeom/how-weather-front/assets/105287510/6aebe39f-351e-47e9-98ce-36adab978963" alt="서비스 로고" width="150px" height="150px "/>
-</p>
-
 <br >
-
+<br >
 
 # 💼 서비스 소개
 
@@ -49,7 +46,7 @@ How-Wheather 는 이러한 분들을 위해 현재 날씨를 고려하여 옷을
 |      Design      |     BE      |  
 | :--------------: | :--------------: | 
 | <a href=""><img src="https://media.discordapp.net/attachments/1226486997682487326/1226855455809208361/IMG_2695.jpeg?ex=6626492e&is=6613d42e&hm=ff6c301f54b195dbc76585f28b5472812abc9ff612ffdfb0c59afb90c2a3b6a7&=&format=webp&width=444&height=592" alt="profile" width="140" height="140"></a> | <a href="([https://github.com/taehui7439](https://github.com/kyungseopk1m)"><img src="https://avatars.githubusercontent.com/u/101553623?v=4" alt="profile" width="140" height="140"></a> |
-|                 [나무](https://www.behance.net/mogin9903702f)                |       [마틴](https://github.com/kyungseopk1m)       |    
+|                [나무](https://www.behance.net/mogin9903702f)                |       [마틴](https://github.com/kyungseopk1m)       |    
 
 
 
@@ -95,6 +92,7 @@ How-Wheather 는 이러한 분들을 위해 현재 날씨를 고려하여 옷을
 
 <br/>
 <br/>
+</div>
 
 - - -
 
@@ -103,7 +101,7 @@ How-Wheather 는 이러한 분들을 위해 현재 날씨를 고려하여 옷을
 </p>
 
 # git commit convention
-
+```
 - Feat : 새로운 기능의 추가
 - Fix: 버그 수정
 - Docs: 문서 수정 (리드미 작성)
@@ -111,3 +109,4 @@ How-Wheather 는 이러한 분들을 위해 현재 날씨를 고려하여 옷을
 - Refactor: 코드 리펙토링
 - Test: 테스트 코트, 리펙토링 테스트 코드 추가
 - Chore: 빌드 업무 수정, 패키지 매니저 수정(ex .gitignore 수정 같은 경우)
+```
