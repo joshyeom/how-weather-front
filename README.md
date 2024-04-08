@@ -102,13 +102,8 @@ How-Wheather 는 이러한 분들을 위해 현재 날씨를 고려하여 옷을
   <img src="https://github.com/solssak/teo-sprint-template/assets/107416133/b9616006-c8a2-4a39-a5cb-67d200cb1a84" width="300" height="300"/>
 </p>
 
-# git commit convention
-```
-- Feat : 새로운 기능의 추가
-- Fix: 버그 수정
-- Docs: 문서 수정 (리드미 작성)
-- Style: 스타일 관련 기능(코드 포맷팅, 세미콜론 누락, 코드 자체의 변경이 없는 경우)
-- Refactor: 코드 리펙토링
-- Test: 테스트 코트, 리펙토링 테스트 코드 추가
-- Chore: 빌드 업무 수정, 패키지 매니저 수정(ex .gitignore 수정 같은 경우)
-```
+# 단체 사진
+
+![image](https://github.com/joshyeom/how-weather-front/assets/105287510/a56a0f91-5fd3-44e5-adad-e9dff6ec0e37)
+
+
