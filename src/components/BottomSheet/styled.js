@@ -3,18 +3,18 @@ import { Colors } from '../../tokens/Colors';
 // import { Space } from "../../tokens/"
 
 export const Main = styled.main`
+  display: ${({ isModal }) => (isModal ? 'flex' : 'none')};
   max-width: 390px;
   position: absolute;
-  top: ${({ isModal }) => (isModal ? '0' : '100%')};
+  top: 20%;
   left: 50%;
   transform: translate(-50%);
   border-radius: 10px;
   background-color: white;
   z-index: 10;
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   transition: 0.3s ease-in-out;
-  display: flex;
   flex-direction: column;
   align-items: center;
 `;
