@@ -8,7 +8,7 @@ const WeatherAPI = () => {
 	useEffect(() => {
 
 		const fetchWeatherApi = async () => {
-			const response =  await axios.post('/api/weather-infomation',
+			const response =  await axios.post('api/weather-infomation',
 			{
 				keyword: "서울시"
 			}).catch((err) => {

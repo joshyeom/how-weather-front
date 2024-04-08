@@ -27,7 +27,7 @@ const IntroPage = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('weather-infomation', {
+      const response = await fetch('api/weather-infomation', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
