@@ -1,11 +1,11 @@
 {
     "rewrites": [
       {
-        "source": "/api/:path*",
+        "source": "api/:path*",
         "destination": "https://asia-northeast3-kskim-archive.cloudfunctions.net/:path*"
       },
       {
-        "source": "/api/:path*/",
+        "source": "api/:path*/",
         "destination": "https://asia-northeast3-kskim-archive.cloudfunctions.net/:path*/"
       }
 
