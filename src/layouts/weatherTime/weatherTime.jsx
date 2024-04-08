@@ -101,9 +101,7 @@ const WeatherTime = ({ weather }) => {
 
   return (
     <SC.WeatherTime>
-      <SC.WeatherChart ref={chartRef}>
-        <div>sdsdasdasdsad</div>
-      </SC.WeatherChart>
+      <SC.WeatherChart ref={chartRef} />
       <SC.WeatherCloud>
         {weatherCloud.map((cloud, index) => (
           <SC.WeatherImage
