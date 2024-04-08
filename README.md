@@ -77,6 +77,7 @@ How-Wheather 는 이러한 분들을 위해 현재 날씨를 고려하여 옷을
 
 <img src="https://img.shields.io/badge/Python-3a75b0?style=for-the-badge&logo=python&logoColor=white">
 <img src="https://img.shields.io/badge/cloudfucntions-3a75b0?style=for-the-badge&logo=google&logoColor=white">
+<img src="https://img.shields.io/badge/mongodb-47A248?style=for-the-badge&logo=mongodb&logoColor=white">
 
 ### 디자인
 
@@ -86,11 +87,10 @@ How-Wheather 는 이러한 분들을 위해 현재 날씨를 고려하여 옷을
 
 <img src="https://img.shields.io/badge/Figjam-F24E1E?style=for-the-badge&logo=Figma&logoColor=white">
 <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
-<img src="https://img.shields.io/badge/webstorm-181717?style=for-the-badge&logo=webstorm&logoColor=white">
+<img src="https://img.shields.io/badge/pycharm-000000?style=for-the-badge&logo=pycharm&logoColor=white">
 <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 <img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
 
-<br/>
 <br/>
 </div>
 
