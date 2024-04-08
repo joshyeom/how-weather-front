@@ -15,7 +15,7 @@ const IntroPage = () => {
     age40: false,
   });
   const [body, setBody] = useState({ hot: false, normal: false, cold: false });
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
