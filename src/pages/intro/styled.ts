@@ -2,6 +2,7 @@ import { styled } from 'styled-components';
 import { Colors } from '../../tokens/Colors';
 import { Fonts } from '../../tokens/Fonts';
 
+
 export const Main = styled.main`
   max-width: 390px;
   margin: 0 auto;

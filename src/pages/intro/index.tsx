@@ -1,20 +1,22 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import CheckIcon from './CheckIcon';
 import * as SC from './styled';
 import { SubmitBox } from '../../components/SubmitBox/SubmitBox';
 import { useNavigate } from 'react-router-dom';
-// import axios from "axios"
 import Loading from '../../components/loading';
+import { AgeType, GenderType, BodyType } from 'types/types';
 
 const IntroPage = () => {
+  
+
   const navigate = useNavigate();
-  const [gender, setGender] = useState({ male: false, feMale: false });
-  const [age, setAge] = useState({
+  const [gender, setGender] = useState<GenderType>({ male: false, female: false });
+  const [age, setAge] = useState<AgeType>({
     age10: false,
     age2030: false,
     age40: false,
   });
-  const [body, setBody] = useState({ hot: false, normal: false, cold: false });
+  const [body, setBody] = useState<BodyType>({ hot: false, normal: false, cold: false });
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -26,7 +28,7 @@ const IntroPage = () => {
   }, []);
 
 
-  const genderHandler = (selectedGender) => {
+  const genderHandler = (selectedGender: string) => {
     if (selectedGender === 'male') {
       setGender({ male: true, female: false });
     } else {
@@ -34,7 +36,7 @@ const IntroPage = () => {
     }
   };
 
-  const ageHandler = (selectedAge) => {
+  const ageHandler = (selectedAge: string) => {
     switch (selectedAge) {
       case 'age10':
         setAge({ age10: true, age2030: false, age40: false });
@@ -51,7 +53,7 @@ const IntroPage = () => {
     }
   };
 
-  const bodyHandler = (selectedBody) => {
+  const bodyHandler = (selectedBody: string) => {
     switch (selectedBody) {
       case 'hot':
         setBody({ hot: true, normal: false, cold: false });
@@ -88,7 +90,7 @@ const IntroPage = () => {
     });
   }, [gender, age, body]);
 
-  const saveToLocal = (key, value) => {
+  const saveToLocal = (key: string, value: string) => {
     localStorage.setItem(key, value);
   };
 

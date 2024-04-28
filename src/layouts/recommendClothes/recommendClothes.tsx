@@ -1,9 +1,9 @@
 import TextStrong from '../../components/text/textStrong.jsx';
 import TextLink from '../../components/text/textLink.jsx';
-import CardItem from '../../components/card/cardItem';
+import CardItem from '../../components/card/cardItem.jsx';
 import BoxAccessory from '../../components/box/boxAccessory.jsx';
 import { CLOTHES_IMAGE, WEATHER_IMAGE } from '../../utils/constant.js';
-import * as SC from './styled';
+import * as SC from './styled.jsx';
 
 const RecommendClothes = ({ weather }) => {
   const season = (temp) => {
