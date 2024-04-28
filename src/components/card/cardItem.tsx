@@ -1,8 +1,9 @@
+import { CardItemProps } from 'types/types';
 import { CLOTHES_NAME } from '../../utils/constant';
 import TextSpan from '../text/textSpan';
 import * as SC from './styled';
 
-const CardItem = ({ src, alt, info, item = '' }) => {
+const CardItem = ({ src, alt, info, item }: CardItemProps) => {
   return (
     <SC.CardItem>
       <SC.Card>

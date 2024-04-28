@@ -4,13 +4,15 @@ import Weather from '../../components/weather/weather';
 import WeatherTime from '../../layouts/weatherTime/weatherTime';
 import BottomSheet from '../../components/BottomSheet/BottomSheet';
 import axios from 'axios';
+import { WeatherType } from 'types/types';
+
 
 const MainPage = () => {
-  const [weather, setWeather] = useState({
+  const [weather, setWeather] = useState<WeatherType>({
     mock: null,
     info: null,
   });
-  const [isModal, setIsModal] = useState(false);
+  const [isModal, setIsModal] = useState<boolean>(false);
 
   useEffect(() => {
     const fetchData = async () => {

@@ -3,16 +3,16 @@ import { WEATHER_IMAGE } from '../../utils/constant';
 import ApexCharts from 'apexcharts';
 import * as SC from './styled';
 
-const WeatherTime = ({ weather }) => {
+const WeatherTime = ({ weather }: any) => {
   const currentDate = new Date();
   const weatherCurrent = weather?.filter(
-    (item, index) =>
+    (item: any, index: number) =>
       index >= currentDate.getHours() && index <= currentDate.getHours() + 23
   );
-  //const weatherCurrent = weather?.filter((item, index) => index < 24);
-  const weatherTemp = weatherCurrent?.map((item) => item.degree);
-  const weatherTime = weatherCurrent?.map((item) => item.time);
-  const weatherCloud = weatherCurrent?.map((item) => item.weather);
+  //const weatherCurrent = weather?.filter((item: any, index) => index < 24);
+  const weatherTemp = weatherCurrent?.map((item: any) => item.degree);
+  const weatherTime = weatherCurrent?.map((item: any) => item.time);
+  const weatherCloud = weatherCurrent?.map((item: any) => item.weather);
 
   const chartRef = useRef(null);
 
@@ -43,7 +43,7 @@ const WeatherTime = ({ weather }) => {
       },
       dataLabels: {
         enabled: true,
-        formatter: function (val) {
+        formatter: function (val: any) {
           return val + '°';
         },
         offsetY: -20,
@@ -74,7 +74,7 @@ const WeatherTime = ({ weather }) => {
         },
         labels: {
           show: false,
-          formatter: function (val) {
+          formatter: function (val: any) {
             return val + '°';
           },
         },
@@ -103,7 +103,7 @@ const WeatherTime = ({ weather }) => {
     <SC.WeatherTime>
       <SC.WeatherChart ref={chartRef} />
       <SC.WeatherCloud>
-        {weatherCloud.map((cloud, index) => (
+        {weatherCloud.map((cloud: any, index: number) => (
           <SC.WeatherImage
             key={index}
             src={WEATHER_IMAGE[cloud]}

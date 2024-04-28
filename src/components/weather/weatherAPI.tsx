@@ -15,10 +15,10 @@ const WeatherAPI = () => {
 					console.log(err)
 			});
 
-			if (response.data) {
+			if (response?.data) {
 				setWeatherData(response.data);
 			} else {
-				console.err("Failed to fetch");
+				console.error("Failed to fetch");
 			}
 		};
 

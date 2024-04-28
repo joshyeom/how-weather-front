@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import { FontType } from 'types/types';
 
 export const WeatherContainer = styled.div`
   width: 358px;
@@ -23,20 +24,20 @@ export const ShowMore = styled.div`
   justify-content: flex-end;
 `;
 
-export const MoreText = styled.div`
+export const MoreText = styled.div<{fontStyle: FontType}>`
   position: relative;
   top: 5px;
   right: 3px;
   width: 50px;
   height: 20px;
   text-align: center;
-  ${(props) =>
-    props.fontStyle &&
+  ${(fontStyle: any) =>
+    fontStyle &&
     css`
-      font-size: ${props.fontStyle.fontSize};
-      font-family: ${props.fontStyle.fontFamily};
-      font-weight: ${props.fontStyle.fontWeight};
-      line-height: ${props.fontStyle.lineHeight};
+      font-size: ${fontStyle.fontSize};
+      font-family: ${fontStyle.fontFamily};
+      font-weight: ${fontStyle.fontWeight};
+      line-height: ${fontStyle.lineHeight};
     `}
 `;
 
@@ -49,7 +50,7 @@ export const WeatherIcon = styled.div`
   opacity: 0.7;
 `;
 
-export const TemperatureText = styled.div`
+export const TemperatureText = styled.div<{fontStyle: FontType}>`
   position: relative;
   float: left;
   top: -25px;
@@ -57,41 +58,41 @@ export const TemperatureText = styled.div`
   height: 90px;
   left: 60px;
   bottom: 10px;
-  ${(props) =>
-    props.fontStyle &&
+  ${(fontStyle: any) =>
+    fontStyle &&
     css`
-      font-size: ${props.fontStyle.fontSize};
-      font-family: ${props.fontStyle.fontFamily};
-      font-weight: ${props.fontStyle.fontWeight};
-      line-height: ${props.fontStyle.lineHeight};
+      font-size: ${fontStyle.fontSize};
+      font-family: ${fontStyle.fontFamily};
+      font-weight: ${fontStyle.fontWeight};
+      line-height: ${fontStyle.lineHeight};
     `}
 `;
 
-export const TemperatureTextBig = styled.div`
+export const TemperatureTextBig = styled.div<{fontStyle: FontType}>`
   position: relative;
   top: 10px;
   width: 109px;
   height: 40px;
-  ${(props) =>
-    props.fontStyle &&
+  ${(fontStyle: any) =>
+    fontStyle &&
     css`
-      font-size: ${props.fontStyle.fontSize};
-      font-family: ${props.fontStyle.fontFamily};
-      font-weight: ${props.fontStyle.fontWeight};
-      line-height: ${props.fontStyle.lineHeight};
+      font-size: ${fontStyle.fontSize};
+      font-family: ${fontStyle.fontFamily};
+      font-weight: ${fontStyle.fontWeight};
+      line-height: ${fontStyle.lineHeight};
     `}
 `;
 
-export const TemperatureCompare = styled.div`
+export const TemperatureCompare = styled.div<{fontStyle: FontType}>`
   margin-bottom: 3px;
   text-align: center;
-  ${(props) =>
-    props.fontStyle &&
+  ${(fontStyle: any) =>
+    fontStyle &&
     css`
-      font-size: ${props.fontStyle.fontSize};
-      font-family: ${props.fontStyle.fontFamily};
-      font-weight: ${props.fontStyle.fontWeight};
-      line-height: ${props.fontStyle.lineHeight};
+      font-size: ${fontStyle.fontSize};
+      font-family: ${fontStyle.fontFamily};
+      font-weight: ${fontStyle.fontWeight};
+      line-height: ${fontStyle.lineHeight};
     `}
 `;
 
@@ -115,16 +116,16 @@ export const TemperatureFind = styled.div`
   align-content: center;
 `;
 
-export const TemperatureTopLast = styled.div`
+export const TemperatureTopLast = styled.div<{fontStyle: FontType}>`
   float: left;
   margin-right: 5px;
-  ${(props) =>
-    props.fontStyle &&
+  ${(fontStyle: any) =>
+    fontStyle &&
     css`
-      font-size: ${props.fontStyle.fontSize};
-      font-family: ${props.fontStyle.fontFamily};
-      font-weight: ${props.fontStyle.fontWeight};
-      line-height: ${props.fontStyle.lineHeight};
+      font-size: ${fontStyle.fontSize};
+      font-family: ${fontStyle.fontFamily};
+      font-weight: ${fontStyle.fontWeight};
+      line-height: ${fontStyle.lineHeight};
     `}
 `;
 
@@ -154,31 +155,31 @@ export const RainPercent = styled.div`
   border-radius: 6px;
 `;
 
-export const RainTitle = styled.div`
+export const RainTitle = styled.div<{fontStyle: FontType}>`
   float: bottom;
   margin-top: 6px;
   color: rgba(102, 105, 111, 1);
   text-align: center;
-  ${(props) =>
-    props.fontStyle &&
+  ${(fontStyle: any) =>
+    fontStyle &&
     css`
-      font-size: ${props.fontStyle.fontSize};
-      font-family: ${props.fontStyle.fontFamily};
-      font-weight: ${props.fontStyle.fontWeight};
-      line-height: ${props.fontStyle.lineHeight};
+      font-size: ${fontStyle.fontSize};
+      font-family: ${fontStyle.fontFamily};
+      font-weight: ${fontStyle.fontWeight};
+      line-height: ${fontStyle.lineHeight};
     `}
 `;
 
-export const Percent = styled.div`
+export const Percent = styled.div<{ fontStyle: FontType }>`
   margin-top: 6px;
   text-align: center;
   color: rgba(88, 50, 238, 1);
-  ${(props) =>
-    props.fontStyle &&
+  ${(fontStyle: any) =>
+    fontStyle &&
     css`
-      font-size: ${props.fontStyle.fontSize};
-      font-family: ${props.fontStyle.fontFamily};
-      font-weight: ${props.fontStyle.fontWeight};
-      line-height: ${props.fontStyle.lineHeight};
+      font-size: ${fontStyle.fontSize};
+      font-family: ${fontStyle.fontFamily};
+      font-weight: ${fontStyle.fontWeight};
+      line-height: ${fontStyle.lineHeight};
     `}
 `;

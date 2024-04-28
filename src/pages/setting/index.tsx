@@ -22,11 +22,11 @@ const SettingPage = () => {
             <SC.Main>
                 <SC.Section>
                     <SC.Title>성별</SC.Title>
-                    <RadioBox list={["남성", "여성"]} value={["male", "female"]} category="gender"></RadioBox>
+                    <RadioBox list={["남성", "여성"]} value={["male", "female"]} category="gender" column={false}></RadioBox>
                 </SC.Section>
                 <SC.Section>
                     <SC.Title>나이</SC.Title>
-                    <RadioBox list={["10대", "20-30대", "40대 이상"]} value={["age10", "age2030", "age40"]} category="age"></RadioBox>
+                    <RadioBox list={["10대", "20-30대", "40대 이상"]} value={["age10", "age2030", "age40"]} category="age" column={false}></RadioBox>
                 </SC.Section>
                 <SC.Section>
                     <SC.Title>체질</SC.Title>

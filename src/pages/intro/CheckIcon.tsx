@@ -1,8 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Colors } from '../../tokens/Colors';
+import { CheckIconProps } from 'types/types';
 
-const Box = styled.div`
+
+const Box = styled.div<{isClick: boolean}>`
   width: 18px;
   height: 18px;
   border-radius: 100%;
@@ -18,7 +20,7 @@ const Box = styled.div`
   justify-content: center;
 `;
 
-const CheckIcon = ({ isClick }) => {
+const CheckIcon = ({ isClick }: CheckIconProps) => {
   return (
     <Box isClick={isClick}>
       <svg

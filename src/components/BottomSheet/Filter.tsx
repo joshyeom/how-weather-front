@@ -1,8 +1,9 @@
-import React from "react"
 import { styled } from "styled-components"
 import { Colors } from "../../tokens/Colors"
+import { IsModalType } from "types/types"
 
-const Section = styled.section`
+
+const Section = styled.section<IsModalType>`
     position: absolute;
     display: ${({isModal}) => isModal ? "block" : "none"};
     opacity: 0.8;
@@ -13,7 +14,7 @@ const Section = styled.section`
     transition: .3s ease-in-out;
 `
 
-const Filter = ({isModal}) => {
+const Filter = ({isModal}: IsModalType) => {
     return <Section isModal={isModal}/>
 }
 
