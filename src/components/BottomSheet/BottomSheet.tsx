@@ -3,10 +3,12 @@ import Filter from './Filter';
 import * as SC from './styled';
 import { weatherData } from './weekWeather';
 // import { useState } from "react";
+import { ModalProps } from 'types/types';
 
-const BottomSheet = ({ isModal, setIsModal }) => {
+
+const BottomSheet = ({isModal, setIsModal}: ModalProps) => {
   // const dataWeather = useState(weatherData)
-  const modalRoot = document.getElementById('modal-root');
+  const modalRoot = document.getElementById('modal-root') as HTMLElement;
 
   return ReactDOM.createPortal(
     <>

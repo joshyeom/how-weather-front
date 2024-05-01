@@ -1,12 +1,13 @@
-import TextStrong from '../../components/text/textStrong.jsx';
-import TextLink from '../../components/text/textLink.jsx';
+import TextStrong from '../../components/text/textStrong';
+import TextLink from '../../components/text/textLink';
 import CardItem from '../../components/card/cardItem';
-import BoxAccessory from '../../components/box/boxAccessory.jsx';
-import { CLOTHES_IMAGE, WEATHER_IMAGE } from '../../utils/constant.js';
+import BoxAccessory from '../../components/box/boxAccessory';
+import { CLOTHES_IMAGE, WEATHER_IMAGE } from '../../utils/constant';
 import * as SC from './styled';
 
-const RecommendClothes = ({ weather }) => {
-  const season = (temp) => {
+const RecommendClothes = ({ weather }: any) => {
+  const season = (data: string) => {
+    const temp = parseInt(data)
     if (temp >= 22) {
       return '여름';
     } else if (temp >= 16) {
@@ -18,7 +19,6 @@ const RecommendClothes = ({ weather }) => {
     }
   };
 
-  console.log(localStorage.getItem('gender'));
 
   const info = {
     성별: localStorage.getItem('gender') === 'male' ? '남성' : '여성',
@@ -69,6 +69,7 @@ const RecommendClothes = ({ weather }) => {
             src={WEATHER_IMAGE[info.날씨]}
             info={info}
             alt={`${info.날씨} 이미지`}
+            item=""
           />
           <BoxAccessory info={info} />
         </SC.Accessory>

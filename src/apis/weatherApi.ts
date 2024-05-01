@@ -1,4 +1,4 @@
-//import axios from 'axios';
+import { ErrorWithMessage } from "types/types";
 
 export const WeatherApi = async () => {
   try {
@@ -18,8 +18,9 @@ export const WeatherApi = async () => {
     }
 
     return await response.json();
-  } catch (error) {
-    throw new Error(error.message);
+  } catch (error)  {
+
+    if(error instanceof Error) throw new Error(error.message)
   }
 };
 

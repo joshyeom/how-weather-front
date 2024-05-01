@@ -8,17 +8,17 @@ const WeatherAPI = () => {
 	useEffect(() => {
 
 		const fetchWeatherApi = async () => {
-			const response =  await axios.post('https://asia-northeast3-kskim-archive.cloudfunctions.net/weather-infomation',
+			const response =  await axios.post('api/weather-infomation',
 			{
 				keyword: "서울시"
 			}).catch((err) => {
 					console.log(err)
 			});
 
-			if (response.data) {
+			if (response?.data) {
 				setWeatherData(response.data);
 			} else {
-				console.err("Failed to fetch");
+				console.error("Failed to fetch");
 			}
 		};
 

@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/:path*",
+        "destination": "https://asia-northeast3-kskim-archive.cloudfunctions.net/:path*"
+      }
+    ]
+  }

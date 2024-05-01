@@ -19,6 +19,6 @@ export const Button = styled.button`
   }
 `;
 
-export const SubmitBox = ({ children, onClick }) => {
+export const SubmitBox = ({ children, onClick }: any) => {
   return <Button onClick={onClick}>{children}</Button>;
 };

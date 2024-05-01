@@ -2,8 +2,10 @@ import React from 'react';
 import * as SC from './weatherStyle';
 import { Fonts } from '../../tokens/Fonts';
 
-const Weather = ({isModal,setIsModal}) => {
 
+
+
+const Weather = ({isModal,setIsModal}: any) => {
 
 	return(
 		<SC.WeatherContainer>

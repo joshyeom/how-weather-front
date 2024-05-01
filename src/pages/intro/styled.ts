@@ -30,13 +30,13 @@ export const Article = styled.article`
   gap: 20px;
 `;
 
-export const CheckBox = styled.button`
+export const CheckBox = styled.button<{isClick: boolean}>`
   width: 106px;
   height: 106px;
-  background-color: ${({ $isClick }) =>
-    $isClick ? Colors['main02-10'] : Colors.line01};
-  border: ${({ $isClick }) =>
-    $isClick ? `2px solid ${Colors.main02}` : `2px solid ${Colors.line03}`};
+  background-color: ${({ isClick }) =>
+    isClick ? Colors['main02-10'] : Colors.line01};
+  border: ${({ isClick }) =>
+    isClick ? `2px solid ${Colors.main02}` : `2px solid ${Colors.line03}`};
   border-radius: 6px;
   position: relative;
   display: flex;
@@ -46,7 +46,7 @@ export const CheckBox = styled.button`
   align-items: center;
   cursor: pointer;
   & span {
-    color: ${({ $isClick }) => ($isClick ? Colors['main02'] : Colors.gr01)};
+    color: ${({ isClick }) => (isClick ? Colors['main02'] : Colors.gr01)};
   }
 `;
 

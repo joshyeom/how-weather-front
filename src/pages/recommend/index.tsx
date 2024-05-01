@@ -1,7 +1,7 @@
-import * as SC from "./style.js";
-import * as DD from "./codiData.js";
+import * as SC from "./style";
+import * as DD from "./codiData";
 import styled from "styled-components";
-import Slider from "react-slick";
+import Slider from "react-slick"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 

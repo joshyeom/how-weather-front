@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import * as SC from './navbarStyle';
+import { CityType } from "types/types";
+
 
 const Navbar = () => {
-  const city = {
+  const city: CityType = {
     서울: ['강남구', '노원구', '용산구', '성동구'],
     대전: ['유성구', '중구', '대덕구'],
     대구: ['수성구', '중구', '달서구'],
@@ -11,20 +13,20 @@ const Navbar = () => {
     울산: ['남구', '중구', '북구'],
     인천: ['중구', '동구', '미추홀구', '연수구']
   };
-  const [selectedDistrict, setSelectedDistrict] = useState('노원구');
-  const [selectedCity, setSelectedCity] = useState('서울');
+  const [selectedDistrict, setSelectedDistrict] = useState<string>('노원구');
+  const [selectedCity, setSelectedCity] = useState<string>('서울');
   const [isSelecting, setIsSelecting] = useState(false);
 
   const handleLocation = () => {
     setIsSelecting(true);
   };
 
-  const handleCityChange = (event) => {
+  const handleCityChange = (event:React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedCity(event.target.value);
     setSelectedDistrict('');
   };
 
-  const handleDistrictChange = (event) => {
+  const handleDistrictChange = (event:React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedDistrict(event.target.value);
     setIsSelecting(false);
   };

@@ -1,8 +1,8 @@
 import { styled } from 'styled-components';
 import { Colors } from '../../tokens/Colors';
-// import { Space } from "../../tokens/"
+import { IsModalType } from 'types/types';
 
-export const Main = styled.main`
+export const Main = styled.main<IsModalType>`
   display: ${({ isModal }) => (isModal ? 'flex' : 'none')};
   max-width: 390px;
   position: absolute;

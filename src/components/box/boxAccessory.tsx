@@ -2,7 +2,7 @@ import { WEATHER_TEXT } from '../../utils/constant';
 import TextP from '../text/textP';
 import * as SC from './styled';
 
-const BoxAccessory = ({ info }) => {
+const BoxAccessory = ({ info }: any) => {
   return (
     <SC.Box>
       {info.미세먼지 === '나쁨' ? <TextP>마스크 챙겨주세요!</TextP> : null}
